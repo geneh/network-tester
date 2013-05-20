@@ -1,4 +1,4 @@
 network-tester
 ==============
 
-Network Tester
+Network Tester PhoneGap application.

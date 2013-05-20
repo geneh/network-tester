@@ -20,9 +20,11 @@
             <div data-role="content">
                 <div data-role="collapsible" data-collapsed="false">
                     <h4>Request</h4>
-                    <label for="url-input" class="select">URL:</label>
-                    <input name="url-input" id="url-input" type="text" value="http://" />
-                    <a id="url-go-btn" data-role="button" data-theme="a">Go</a>
+                    <form id="request-form">
+                        <label for="url-input" class="select">URL:</label>
+                        <input name="url-input" id="url-input" type="text" value="http://" />
+                        <button id="url-go-btn" type="submit" data-transition="none" data-theme="a">Go</button>
+                    </form>
                 </div>
                 <div data-role="collapsible" data-collapsed="false">
                     <h4>Response</h4>

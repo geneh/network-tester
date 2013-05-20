@@ -11,5 +11,7 @@
     <description>
         This application tests HTTP/S requests. 
     </description>
+    
+    <preference name="orientation" value="portrait" />
 
 </widget>

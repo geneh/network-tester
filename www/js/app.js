@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     FastClick.attach(document.body);
 });
 
@@ -32,5 +32,6 @@ $("#main-page").live("pageinit", function () {
                 $("#response-txt-2").text("Error: " + errorThrown);
             }
         });
+        return false;
     });
 });

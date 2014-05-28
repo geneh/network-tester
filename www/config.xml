@@ -13,6 +13,6 @@
     </description>
     
     <preference name="orientation" value="portrait" />
-    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="phonegap-version" value="3.4.0" />
 
 </widget>
